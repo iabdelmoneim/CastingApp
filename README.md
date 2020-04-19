@@ -2,7 +2,7 @@
 
 ## capstone project for the udacity full stack nanodegree program.
 
-**Heroku link:** (https://capstone-fsnd.herokuapp.com/)
+**Heroku link:** ( https://casting2020.herokuapp.com/)
 
 ## Getting Started
 
@@ -86,12 +86,12 @@ reponse = {
 success: True,
 actors: [
           {
-            name: "Kelvin Hart",
+            name: "Jack Nicholson",
             role: "cast",
             gender: "male",
           },
           {
-            name: "Kelvin Hart",
+            name: "Jack Nicholson",
             role: "cast",
             gender: "male",
           }
@@ -102,14 +102,14 @@ actors: [
 POST '/actors'
 
 payload = {
-     name: "Kelvin Hart",
+     name: "Jack Nicholson",
     role: "cast",
     gender: "male",
   }
 response = {
   success: True,
   actor:{  
-    name: "Kelvin Hart",
+    name: "Jack Nicholson",
     role: "cast",
     gender: "male"
    }
@@ -122,7 +122,7 @@ params = <int:actor_id>
 response = {
   success: True,
   actor:{  
-    name: "Kelvin Hart",
+    name: "Jack Nicholson",
     role: "cast",
     gender: "male"
    }
@@ -143,15 +143,15 @@ response = {
 success: True,
 movies: [
           {
-            title: "Avengers",
-            year: 2019,
-            director: "Kenny Faggie",
+            title: "The Shining",
+            year: 1980,
+            director: "Stanley Kubrick",
             genre: "fiction"
           },
           {   
-            title: "Avengers",
-            year: 2019,
-            director: "Kenny Faggie",
+            title: "The Shining",
+            year: 1980,
+            director: "Stanley Kubrick",
             genre: "fiction"
           }
         ]
@@ -161,18 +161,18 @@ movies: [
 POST '/movies'
 
 payload = {
-   title: "Avengers",
-    year: 2019,
-    director: "Kenny Faggie",
-    genre: "fiction"
+ title: "The Shining",
+            year: 1980,
+            director: "Stanley Kubrick",
+            genre: "fiction"
   }
 response = {
   success: True,
   movie: {
-     title: "Avengers",
-    year: 2019,
-    director: "Kenny Faggie",
-    genre: "fiction"
+  title: "The Shining",
+            year: 1980,
+            director: "Stanley Kubrick",
+            genre: "fiction"
  }
 }
 
@@ -183,9 +183,9 @@ params = <int:movie_id>
 response = {
 success: True,
 movies: {   
-            title: "Avengers",
-            year: 2019,
-            director: "Kenny Faggie",
+            title: "The Shining",
+            year: 1980,
+            director: "Stanley Kubrick",
             genre: "fiction"
           }
         
