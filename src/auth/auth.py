@@ -5,9 +5,27 @@ from jose import jwt
 from urllib.request import urlopen
 
 
-AUTH0_DOMAIN = 'capstone-project.auth0.com'
+AUTH0_DOMAIN = 'dev-0l8odztu.eu.auth0.com'
 ALGORITHMS = ['RS256']
-API_AUDIENCE = 'http:localhost/callbacl'
+API_AUDIENCE = 'castingApp'
+
+
+{
+ iss: "https://dev-0l8odztu.eu.auth0.com/",
+ sub: "auth0|5e9c0aad9f7ae4092400f230",
+ aud: "castingApp",
+ scope: "",
+ permissions: [
+  "delete:actors",
+  "delete:movies",
+  "get:actors",
+  "get:movies",
+  "patch:actors",
+  "patch:movies",
+  "post:actors",
+  "post:movies"
+ ]
+}
 
 # AuthError Exception
 '''
